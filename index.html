@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peca Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+        }
+        #opciones {
+            margin: 10px 0;
+            padding: 10px;
+            font-size: 16px;
+        }
+        #contenido {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>¡Bienvenido a Peca Store!</h1>
+
+    <label for="opciones">Seleccione una opción:</label>
+    <select id="opciones">
+        <option value="0">Seleccione una opción</option>
+        <option value="1">Agregar un botin</option>
+        <option value="2">Mostrar botines blancos</option>
+        <option value="3">Mostrar botines negros</option>
+        <option value="4">Buscar botin por nombre</option>
+        <option value="5">Ver todos los botines</option>
+        <option value="6">Mostrar precio total de todos los botines</option>
+    </select>
+
+    <div id="contenido">
+        <!-- Aquí se mostrarán los mensajes -->
+    </div>
+
+    <script src="main.js"></script> <!-- Asegúrate de que este archivo contiene el código JS -->
+</body>
+</html>
